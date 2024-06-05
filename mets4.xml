@@ -12,7 +12,9 @@
     <mets:mdWrap MDTYPE="MODS">
       <mets:xmlData>
         <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
-          <mods:identifier type="purl">dummy-4712</mods:identifier>
+          <mods:titleInfo>
+            <mods:title>This is my test</mods:title>
+          </mods:titleInfo>
         </mods:mods>
       </mets:xmlData>
     </mets:mdWrap>
