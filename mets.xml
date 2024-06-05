@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-0.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mix/v10 http://www.loc.gov/standards/mix/mix10/mix10.xsd">
+   <mets:metsHdr CREATEDATE="2024-06-05T10:28:43.772630">
+      <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="CREATOR">
+         <mets:name>ocrd/core v2.64.1</mets:name>
+      </mets:agent>
+   </mets:metsHdr>
+   <mets:dmdSec ID="DMDLOG_0001">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+               <mods:identifier type="purl">my-test-workspace-1</mods:identifier>
+               <mods:titleInfo>
+                  <mods:title>This is just a test</mods:title>
+               </mods:titleInfo>
+               <mods:originInfo>
+                  <mods:place>
+                     <mods:placeTerm type="text">Göttingen</mods:placeTerm>
+                  </mods:place>
+                  <mods:dateIssued encoding="iso8601">2024</mods:dateIssued>
+               </mods:originInfo>
+               <mods:name type="personal">
+                  <mods:namePart type="given">Justa</mods:namePart>
+                  <mods:namePart type="family">Test</mods:namePart>
+                  <mods:displayForm>just a test</mods:displayForm>
+                  <mods:role>
+                     <mods:roleTerm authority="marcrelator" type="code" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</mods:roleTerm>
+                  </mods:role>
+               </mods:name>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:amdSec ID="amdSec_0001">
+      <mets:rightsMD ID="RIGHTS">
+         <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS" MIMETYPE="text/xml">
+            <mets:xmlData>
+               <DV:rights xmlns:DV="http://dfg-viewer.de/">
+                  <DV:owner>Koordinierte Förderinitiative zur Weiterentwicklung von Verfahren für
+                   die Optical-Character-Recognition OCR-D</DV:owner>
+                  <DV:ownerLogo>http://ocr-d.de/sites/default/files/Header1-Text-gold_3.png</DV:ownerLogo>
+                  <DV:ownerSiteURL>http://ocr-d.de/</DV:ownerSiteURL>
+                  <DV:ownerContact>mailto:ocrd@bbaw.de</DV:ownerContact>
+               </DV:rights>
+            </mets:xmlData>
+         </mets:mdWrap>
+      </mets:rightsMD>
+      <mets:digiprovMD ID="DIGIPROV">
+         <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVLINKS">
+            <mets:xmlData>
+               <dv:links xmlns:dv="http://dfg-viewer.de/">
+                  <dv:reference>http://opac.sub.uni-goettingen.de/DB=1/PPN?PPN=820141879</dv:reference>
+                  <dv:presentation>http://resolver.sub.uni-goettingen.de/purl?PPN820141895</dv:presentation>
+                  <dv:iiif>https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN820141895/manifest</dv:iiif>
+               </dv:links>
+            </mets:xmlData>
+         </mets:mdWrap>
+      </mets:digiprovMD>
+   </mets:amdSec>
+   <mets:fileSec>
+      <mets:fileGrp USE="DEFAULT">
+         <mets:file ID="def_01" MIMETYPE="image/jpeg">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=DEFAULT/FILE_0001_DEFAULT.jpg" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+            <mets:FLocat xlink:href="DEFAULT/FILE_0001_DEFAULT.jpg" LOCTYPE="URL" />
+         </mets:file>
+         <mets:file ID="def_02" MIMETYPE="image/jpeg">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=DEFAULT/FILE_0002_DEFAULT.jpg" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+            <mets:FLocat xlink:href="DEFAULT/FILE_0002_DEFAULT.jpg" LOCTYPE="URL" />
+         </mets:file>
+         <mets:file ID="def_03" MIMETYPE="image/jpeg">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=DEFAULT/FILE_0003_DEFAULT.jpg" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+            <mets:FLocat xlink:href="DEFAULT/FILE_0003_DEFAULT.jpg" LOCTYPE="URL" />
+         </mets:file>
+         <mets:file ID="def_04" MIMETYPE="image/jpeg">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=DEFAULT/FILE_0004_DEFAULT.jpg" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+            <mets:FLocat xlink:href="DEFAULT/FILE_0004_DEFAULT.jpg" LOCTYPE="URL" />
+         </mets:file>
+         <mets:file ID="def_05" MIMETYPE="image/jpeg">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=DEFAULT/FILE_0005_DEFAULT.jpg" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+            <mets:FLocat xlink:href="DEFAULT/FILE_0005_DEFAULT.jpg" LOCTYPE="URL" />
+         </mets:file>
+      </mets:fileGrp>
+      <mets:fileGrp USE="PAGE">
+         <mets:file ID="PAGE_phys_01" MIMETYPE="application/vnd.prima.page+xml">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=PAGE/PAGE_phys_01.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+         </mets:file>
+         <mets:file ID="PAGE_phys_02" MIMETYPE="application/vnd.prima.page+xml">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=PAGE/PAGE_phys_02.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+         </mets:file>
+         <mets:file ID="PAGE_phys_03" MIMETYPE="application/vnd.prima.page+xml">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=PAGE/PAGE_phys_03.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+         </mets:file>
+         <mets:file ID="PAGE_phys_04" MIMETYPE="application/vnd.prima.page+xml">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=PAGE/PAGE_phys_04.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+         </mets:file>
+         <mets:file ID="PAGE_phys_05" MIMETYPE="application/vnd.prima.page+xml">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=PAGE/PAGE_phys_05.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+         </mets:file>
+      </mets:fileGrp>
+      <mets:fileGrp USE="FULLTEXT">
+         <mets:file ID="FULLTEXT_phys_01" MIMETYPE="application/alto+xml">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=FULLTEXT/FULLTEXT_phys_01.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+         </mets:file>
+         <mets:file ID="FULLTEXT_phys_02" MIMETYPE="application/alto+xml">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=FULLTEXT/FULLTEXT_phys_02.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+         </mets:file>
+         <mets:file ID="FULLTEXT_phys_03" MIMETYPE="application/alto+xml">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=FULLTEXT/FULLTEXT_phys_03.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+         </mets:file>
+         <mets:file ID="FULLTEXT_phys_04" MIMETYPE="application/alto+xml">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=FULLTEXT/FULLTEXT_phys_04.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+         </mets:file>
+         <mets:file ID="FULLTEXT_phys_05" MIMETYPE="application/alto+xml">
+            <mets:FLocat xlink:href="http://141.5.99.53/api/export/file?id=21.T11998/0000-001D-9978-E&amp;path=FULLTEXT/FULLTEXT_phys_05.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" />
+         </mets:file>
+      </mets:fileGrp>
+   </mets:fileSec>
+   <mets:structMap TYPE="LOGICAL">
+      <mets:div TYPE="Monograph" DMDID="DMDLOG_0001" ADMID="amdSec_0001" ID="loc_0001">
+         <mets:div ID="LOG_001" TYPE="Chapter" LABEL="test1-log01-label" />
+      </mets:div>
+   </mets:structMap>
+   <mets:structMap TYPE="PHYSICAL">
+      <mets:div TYPE="physSequence" ID="physroot">
+         <mets:div TYPE="page" ORDER="1" ID="phys_01">
+            <mets:fptr FILEID="def_01" />
+            <mets:fptr FILEID="PAGE_phys_01" />
+            <mets:fptr FILEID="FULLTEXT_phys_01" />
+         </mets:div>
+         <mets:div TYPE="page" ORDER="2" ID="phys_02">
+            <mets:fptr FILEID="def_02" />
+            <mets:fptr FILEID="PAGE_phys_02" />
+            <mets:fptr FILEID="FULLTEXT_phys_02" />
+         </mets:div>
+         <mets:div TYPE="page" ORDER="3" ID="phys_03">
+            <mets:fptr FILEID="def_03" />
+            <mets:fptr FILEID="PAGE_phys_03" />
+            <mets:fptr FILEID="FULLTEXT_phys_03" />
+         </mets:div>
+         <mets:div TYPE="page" ORDER="4" ID="phys_04">
+            <mets:fptr FILEID="def_04" />
+            <mets:fptr FILEID="PAGE_phys_04" />
+            <mets:fptr FILEID="FULLTEXT_phys_04" />
+         </mets:div>
+         <mets:div TYPE="page" ORDER="5" ID="phys_05">
+            <mets:fptr FILEID="def_05" />
+            <mets:fptr FILEID="PAGE_phys_05" />
+            <mets:fptr FILEID="FULLTEXT_phys_05" />
+         </mets:div>
+      </mets:div>
+   </mets:structMap>
+   <mets:structLink>
+      <mets:smLink xlink:to="phys_01" xlink:from="LOG_001" />
+      <mets:smLink xlink:to="phys_02" xlink:from="LOG_001" />
+      <mets:smLink xlink:to="phys_03" xlink:from="LOG_001" />
+      <mets:smLink xlink:to="phys_04" xlink:from="LOG_001" />
+      <mets:smLink xlink:to="phys_05" xlink:from="LOG_001" />
+   </mets:structLink>
+</mets:mets>
