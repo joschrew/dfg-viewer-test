@@ -12,7 +12,7 @@
     <mets:mdWrap MDTYPE="MODS">
       <mets:xmlData>
         <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
-          <mods:identifier type="purl">urn:ocrd:communist_manifesto</mods:identifier>
+          <mods:identifier type="purl">dummy-4712</mods:identifier>
         </mods:mods>
       </mets:xmlData>
     </mets:mdWrap>
