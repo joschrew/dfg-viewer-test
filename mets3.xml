@@ -67,6 +67,11 @@
       </mets:file>
     </mets:fileGrp>
   </mets:fileSec>
+   <mets:structMap TYPE="LOGICAL">
+      <mets:div TYPE="Monograph" DMDID="DMDLOG_0001" ADMID="amdSec_0001" ID="loc_0001">
+         <mets:div ID="LOG_001" TYPE="Chapter" LABEL="test1-log01-label" />
+      </mets:div>
+   </mets:structMap>
   <mets:structMap TYPE="PHYSICAL">
     <mets:div TYPE="physSequence">
       <mets:div TYPE="page" ID="P0015">
@@ -74,4 +79,7 @@
       </mets:div>
     </mets:div>
   </mets:structMap>
+   <mets:structLink>
+      <mets:smLink xlink:to="P0015" xlink:from="LOG_001" />
+   </mets:structLink>
 </mets:mets>
